@@ -12,3 +12,6 @@ A futuro me gustaria añadir información sobre plantillas, noticias contemporá
 
 ## COMMIT #1
 He incluido una carpeta con todos los archivos que conforman la base de la Web en sí (sin absolutamente nada más).
+
+## comit #2
+He añadido a la carpeta 'static' los ficheros correspondientes para una correcta implementación de Foundation Zurb en la estructura de las diferentes rutas de la Web.
