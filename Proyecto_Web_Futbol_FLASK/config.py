@@ -1,0 +1,1 @@
+# Este archivo contiene las configuraciones específicas de la aplicación, como las claves secretas, configuraciones de base de datos, etc.
