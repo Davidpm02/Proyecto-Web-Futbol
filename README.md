@@ -8,3 +8,7 @@ Esta Web consiste en una especie de **enciclopedia de Fútbol** que llevo tiempo
 En una primera instancia, me gustaría que contuviera información sobre algunos jugadores destacados, así como premios y jugadas destacadas.
 
 A futuro me gustaria añadir información sobre plantillas, noticias contemporáneas, etc...
+
+
+## COMMIT #1
+He incluido una carpeta con todos los archivos que conforman la base de la Web en sí (sin absolutamente nada más).
