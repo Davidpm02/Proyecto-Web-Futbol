@@ -1,0 +1,126 @@
+:root {
+  --primario: #DD4F96;
+  --secundario: #7F4CA1;
+  --terciario: #38469F;
+  --blanco: #fff;
+  --negro: #000;
+
+  --fuentePpal: 'Titillium Web', sans-serif;
+}
+
+/** CSS header **/
+
+.hero-section {
+  background: url("../img/pexels-tembela-bohle-1884574.jpg") 50% no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Este valor define la opacidad del color de fondo */
+}
+
+
+.hero-section .hero-section-text {
+  color: var(--blanco);
+  text-shadow: 1px 1px 2px #0a0a0a;
+  position: absolute;
+}
+
+.hero-section .hero-section-text h1 {
+  font-weight: bold;
+}
+.hero-section .hero-section-text h5 {
+  font-weight: bold;
+}
+
+/** FIN CSS header **/
+
+
+
+
+/** CSS de la barra de navegación ppal **/
+
+
+.menu-hover-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.35s ease;
+  }
+  
+  .menu-hover-lines li a {
+    padding: 0.75rem 0;
+    color: rgba(10, 10, 10, 0.5);
+    position: relative;
+    margin-left: 2rem;
+  }
+  
+  .menu-hover-lines li:first-child a {
+    margin-left: 0;
+  }
+  
+  .menu-hover-lines li.active > a {
+    background-color: transparent;
+  }
+  
+  .menu-hover-lines a:before,
+  .menu-hover-lines a::after {
+    height: 3px;
+    position: absolute;
+    content: '';
+    transition: all 0.35s ease;
+    background-color: var(--primario);
+    width: 0;
+  }
+  
+  .menu-hover-lines a::before {
+    top: 0;
+    left: 0;
+  }
+  
+  .menu-hover-lines a::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  .menu-hover-lines a:hover,
+  .menu-hover-lines li.active > a {
+    color: #0a0a0a;
+    transition: all 0.35s ease;
+  }
+  
+  .menu-hover-lines a:hover::before,
+  .menu-hover-lines .active a::before,
+  .menu-hover-lines a:hover::after,
+  .menu-hover-lines .active a::after {
+    width: 100%;
+  }
+  
+ 
+.barra_navegacion {
+  margin-top: 20px;
+}
+  
+/** FIN CSS de la barra de navegación ppal **/
